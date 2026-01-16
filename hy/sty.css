@@ -1,15 +1,20 @@
-h1{
-    color: blue;
-    background-color: gray;
+*{
+    margin: 0px;
+    padding:0px;
+    color: azure;
 }
-button {
-    color: greenyellow;
-    background-color: cadetblue;
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
 }
-body{
-    color: mediumorchid;
-    background-color: gray;
+button{
+    background-color: #f08804;
 }
-p{
-    color: brown;
+#logo{
+    color: #f08804;
+}
+a{
+    text-decoration: none;
+    margin-right: 200px;
 }
