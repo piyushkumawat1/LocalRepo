@@ -1,20 +1,61 @@
 *{
     margin: 0px;
-    padding:0px;
+    padding: 0px;
+}
+nav{
+    height: 65px;
+    background-color : black;
     color: azure;
 }
-
-#navbar{
-    height: 60px;
-    background-color: #0f1111;
-}
-button{
-    background-color: #f08804;
+a{
+    margin-right: 200px;
 }
 #logo{
-    color: #f08804;
+    font-size: 25px;
+    color : #ffe100
 }
-a{
-    text-decoration: none;
-    margin-right: 200px;
+button{
+    background-color: #ffe100;
+}
+
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display : inline-block;
+    margin: 20px;
+}
+#content{
+    height: 700px;
+}
+footer{
+    color: azure;
+    text-align: center;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.services div {
+    display: inline-block;
+    width: 30%;
+}
+
+.portfolio img,
+.blog img,
+.testimonials img {
+    width: 30%;
+}
+section{
+    padding: 40px;
+    text-align: center;
 }
