@@ -8,14 +8,17 @@ div{
     animation: animation 10s ease-in 2s infinite normal;
 }
 @keyframes animation{
-    from{
+    0%{
         left: 100px;
         background-color: black;
         color: white;
         background-image: url("jujustu\ kaisen.jpg");
         background-size: cover;
     }
-    to{
+    50%{
+        background-color: gold;
+    }
+    100%{
         left: 300px;
         background-color: blue;
         color: black;
